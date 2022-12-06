@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.div-conteiner {
+    text-align: center;
+    margin-top: 100px;
+}
+.div-conteiner-button {
+    margin-top: 50px;
+}
+.class-button {
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    border-radius: 5px;
+}
+.class-button:hover {
+    cursor: pointer;
+}
+
+.iniciar {
+    background-color: rgb(40, 188, 40);
+    color: white;
+}
+.pausar {
+    background-color: rgb(221, 27, 27);
+    color: white;
+}
+.parar {
+    background-color: rgb(244, 215, 1);
+    color: white;
+}
+.iniciar:active {
+    background-color: rgb(120, 230, 120);
+    color: white;
+}
+.pausar:active {
+    background-color: rgb(231, 112, 112);
+    color: white;
+}
+.parar:active {
+    background-color: rgb(253, 236, 100);
+    color: white;
+}
